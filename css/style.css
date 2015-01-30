@@ -249,7 +249,7 @@ img.no-resize {
 	border-top:none;
 }
 .menu-btn {
-    border: 3px solid;
+    border: 0px solid;
     cursor: pointer;
 	border-radius:100px;
     height: 30px;

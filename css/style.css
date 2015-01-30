@@ -130,13 +130,13 @@ ul, ol {
     background: #003366;
 }
 .grey-bg {
-	background: #f0f0f0;
+	background: #F6F6F6;
 }
 .white-bg {
     background: #ffffff;
 }
 .logo-header {
-    padding-top: 19px;
+    padding-top: 28px;
 }
 /* Preloader */
 #preloader {
@@ -149,8 +149,8 @@ ul, ol {
 	z-index: 999999; /* makes sure it stays on top */
 }
 #status {
-	width: 200px;
-	height: 200px;
+	width: 300px;
+	height: 300px;
 	position: absolute;
 	left: 50%; /* centers the loading animation horizontally one the screen */
 	top: 50%; /* centers the loading animation vertically one the screen */
@@ -158,11 +158,16 @@ ul, ol {
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	text-align:center;
-	margin: -100px 0 0 -100px; /* is width and height divided by two */
+	margin: -150px 0 0 -150px; /* is width and height divided by two */
 }
 #status p {
 	text-align: center;
 }
+img.no-resize {
+  min-height: 26px;
+}
+
+
 /*---------------------HEADER SECTION----------------------------*/
 .header {
 	left: 0;
@@ -189,7 +194,7 @@ ul, ol {
 	display: block;
 	font-size: 14px;
 	font-weight: bold;
-	padding: 30px 20px;
+	padding: 30px 13px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 }
@@ -369,7 +374,7 @@ ul, ol {
     background: #fff;
 }
 .small-title {
-	font-size: 20px;
+	font-size: 22px;
 	letter-spacing: 1px;
 	margin: 0 0 20px;
 }
@@ -400,9 +405,9 @@ padding: 2px;
 background: #fff;
 }
 .head-icon {
-    color: #1f1f1f;
+    color: #CCCCCC;
     display: inline-block;
-    font-size: 40px;
+    font-size: 54px;
     height: 54px;
     line-height: 50px;
     margin-bottom: 10px;
@@ -746,9 +751,15 @@ a.pp_previous,a.pp_next{
 }
 .f-table p {
     border-bottom: 1px solid #eeeeee;
-    margin: 0 0px;
+    margin: auto;
     padding: 5px;
-    font-size: 12px;
+    font-size: 14px;
+    max-width: 260px;
+    text-align: center;
+}
+.f-table {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 /*----------------------------PRICING TABLE----------------------------------*/
@@ -940,8 +951,13 @@ input:focus, textarea:focus {
     width: 40px;
 }
 #footer p {
-    font-size: 13px;
+    font-size: 10px;
+    font color: #CCCCCC;
 }
+#footer {
+    background: #1f1f1f;
+}
+
 /*------------------BLOG SECTION------------------------------------*/
 .blog-page .header {
     background: none repeat scroll 0 0 #1f1f1f;
@@ -1195,9 +1211,13 @@ input:focus, textarea:focus {
 .blog-title {
     font-size: 23px;
 }
+
 }
 @media (max-width: 480px) {
 .logo-header {
     padding-top: 32px;
+}
+img.no-resize {
+  min-height: 0px;
 }
 }

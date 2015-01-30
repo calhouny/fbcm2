@@ -258,7 +258,7 @@ img.no-resize {
     text-align: center;
     width: 30px;
     z-index: 3;
-	color: transparent;
+	color: #fff;
 }
 /*-------------------SLIDER SECTION----------------------------------*/
 
@@ -1215,9 +1215,6 @@ input:focus, textarea:focus {
 }
 @media (max-width: 480px) {
 .logo-header {
-    padding-top: 32px;
-}
-img.no-resize {
-  min-height: 0px;
+    padding-top: 28px;
 }
 }
